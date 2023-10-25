@@ -6,7 +6,7 @@
         {
             var MyMain = new EmailToSms();
 
-           if( MyMain.EmailSender("+393245888274", MyMain.TextGeneretor("davide", "como", "3", "ASJVR")))
+           if( MyMain.EmailSender("+393245888274", MyMain.TextGeneretor("davide", "como", "3", "ASJVR","it")))
             {
                 Console.WriteLine("truw");
             }
